@@ -170,6 +170,26 @@ main {
     background-color: var(--color-white);
 }
 
+/* Topアニメーション */
+.welcome-text {
+    animation-name: fadein_anime;
+    animation-fill-mode: both;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-direction: normal;
+}
+
+@keyframes fadein_anime {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 /* Profileセクション (index.html内) */
 .profile-section h3 {
     text-align: center;

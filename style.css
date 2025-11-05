@@ -282,6 +282,8 @@ main {
 /* Worksセクション */
 /* ------------------------------------------- */
 
+
+
 .works-section h3 {
     text-align: center;
     font-size: 3em;
@@ -446,6 +448,11 @@ main {
     height: 100%;
     border: none;
 }
+
+.work-image-placeholder img {
+  cursor: pointer;
+}
+
 
 /* ------------------------------------------- */
 /* Contactセクション */
